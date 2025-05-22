@@ -52,7 +52,7 @@ export default function ProfileModal({ provider, onClose }: ProfileModalProps) {
             <img
               src={provider.photo_url || "https://images.unsplash.com/photo-1587778082149-bd5b1bf5d3fa?w=800&auto=format&fit=crop&q=60"}
               alt={provider.full_name}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top"
             />
             <div className="absolute top-4 right-4">
               <SaveButton providerId={provider.id} />
