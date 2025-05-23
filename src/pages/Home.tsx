@@ -11,15 +11,15 @@ import worker7 from './worker7.jpg';
 const backgroundImages = [
   {
     url: worker8,
-    description: "Diverse group of skilled Indian professionals"
+    description: "Find trusted local service providers in Bhopal - Electricians, Plumbers, and more"
   },
   {
     url: worker7,
-    description: "Tools and equipment"
+    description: "Professional home services and repairs in Bhopal"
   },
   {
     url: worker2,
-    description: "Community working together"
+    description: "Expert technicians and service providers in Bhopal"
   }
 ];
 
