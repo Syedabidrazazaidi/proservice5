@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Zap, Droplets, Hammer, PaintBucket, Scissors, Wrench, Truck, Brush } from 'lucide-react';
+import { Zap, Droplets, Hammer, PaintBucket, Scissors, Wrench, Truck, Brush, HardHat, ChefHat, GraduationCap, Flower2, Droplet, Scissors as ScissorsIcon, Heart } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import type { ServiceProvider } from '../lib/supabase';
@@ -62,6 +62,55 @@ const services = [
     icon: <Brush className="w-12 h-12" />,
     description: "Thorough home cleaning and maintenance services",
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 9,
+    name: "Construction",
+    icon: <HardHat className="w-12 h-12" />,
+    description: "Professional construction and renovation services",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 10,
+    name: "Chef Services",
+    icon: <ChefHat className="w-12 h-12" />,
+    description: "Private chef and catering services",
+    image: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 11,
+    name: "Home Tutoring",
+    icon: <GraduationCap className="w-12 h-12" />,
+    description: "Personalized home tutoring for all subjects",
+    image: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 12,
+    name: "Wedding Decoration",
+    icon: <Flower2 className="w-12 h-12" />,
+    description: "Beautiful wedding and event decoration services",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 13,
+    name: "Water Tank Cleaning",
+    icon: <Droplet className="w-12 h-12" />,
+    description: "Professional water tank cleaning and maintenance",
+    image: "https://images.unsplash.com/photo-1584959370147-ee91f06ebe06?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 14,
+    name: "Home Salon",
+    icon: <ScissorsIcon className="w-12 h-12" />,
+    description: "Professional beauty services at your doorstep",
+    image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 15,
+    name: "Family Care",
+    icon: <Heart className="w-12 h-12" />,
+    description: "Comprehensive family care and support services",
+    image: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&auto=format&fit=crop&q=60"
   }
 ];
 
@@ -83,6 +132,20 @@ const getServiceIcon = (profession: string) => {
       return <Truck className="w-6 h-6" />;
     case "Home Cleaning":
       return <Brush className="w-6 h-6" />;
+    case "Construction":
+      return <HardHat className="w-6 h-6" />;
+    case "Chef Services":
+      return <ChefHat className="w-6 h-6" />;
+    case "Home Tutoring":
+      return <GraduationCap className="w-6 h-6" />;
+    case "Wedding Decoration":
+      return <Flower2 className="w-6 h-6" />;
+    case "Water Tank Cleaning":
+      return <Droplet className="w-6 h-6" />;
+    case "Home Salon":
+      return <ScissorsIcon className="w-6 h-6" />;
+    case "Family Care":
+      return <Heart className="w-6 h-6" />;
     default:
       return <Wrench className="w-6 h-6" />;
   }
