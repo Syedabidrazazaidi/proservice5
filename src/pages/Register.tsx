@@ -14,7 +14,14 @@ const professions = [
   "Landscaping",
   "Appliance Repair",
   "Moving Services",
-  "Home Cleaning"
+  "Home Cleaning",
+  "Construction",
+  "Chef Services",
+  "Home Tutoring",
+  "Wedding Decoration",
+  "Water Tank Cleaning",
+  "Home Salon",
+  "Family Care"
 ];
 
 export default function Register() {
