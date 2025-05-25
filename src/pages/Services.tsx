@@ -26,7 +26,7 @@ const services = [
     name: "Carpentry",
     icon: <Hammer className="w-12 h-12" />,
     description: "Custom woodwork and furniture crafting services",
-    image: "https://images.unsplash.com/photo-1613613369023-1f2765c2b8f9?w=800&auto=format&fit=crop&q=60"
+    image: "https://plus.unsplash.com/premium_photo-1664300494539-313eac2a6095?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const services = [
     name: "Moving Services",
     icon: <Truck className="w-12 h-12" />,
     description: "Professional moving and relocation services",
-    image: "https://images.unsplash.com/photo-1600125693229-a0c898d900be?w=800&auto=format&fit=crop&q=60"
+    image: "https://images.unsplash.com/photo-1598317940377-d1e5402f1bed?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 8,
@@ -68,14 +68,14 @@ const services = [
     name: "Construction",
     icon: <HardHat className="w-12 h-12" />,
     description: "Professional construction and renovation services",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&auto=format&fit=crop&q=60"
+    image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&auto=format&fit=crop&q=60"
   },
   {
     id: 10,
     name: "Chef Services",
     icon: <ChefHat className="w-12 h-12" />,
     description: "Private chef and catering services",
-    image: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&auto=format&fit=crop&q=60"
+    image: "https://images.unsplash.com/photo-1642864285577-4adc9f33ba42?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ const services = [
     name: "Water Tank Cleaning",
     icon: <Droplet className="w-12 h-12" />,
     description: "Professional water tank cleaning and maintenance",
-    image: "https://images.unsplash.com/photo-1584959370147-ee91f06ebe06?w=800&auto=format&fit=crop&q=60"
+    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&auto=format&fit=crop&q=60"
   },
   {
     id: 14,
