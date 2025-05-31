@@ -3,13 +3,13 @@
   "short_name": "getProWorker",
   "description": "Find trusted local service providers - electricians, plumbers, carpenters and more",
   "start_url": "/",
-  "id": "/",
-  "app_id": "/",
+  "id": "/?source=pwa",
+  "app_id": "/?source=pwa",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "fullscreen", "standalone", "minimal-ui", "browser"],
+  "display_override": ["standalone", "minimal-ui", "fullscreen"],
   "background_color": "#ffffff",
   "theme_color": "#0ea5e9",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
@@ -18,7 +18,19 @@
       "purpose": "any"
     },
     {
+      "src": "/icons/icon-192x192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512-maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
