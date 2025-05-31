@@ -1,25 +1,56 @@
 {
   "name": "getProWorker App",
   "short_name": "getProWorker",
-  "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "lang": "en",
-  "scope": "/",
   "description": "Find trusted local service providers - electricians, plumbers, carpenters and more",
+  "start_url": "/",
+  "id": "/?source=pwa",
+  "app_id": "/?source=pwa",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "fullscreen"],
+  "background_color": "#ffffff",
   "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-192x192-maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512x512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
-  ]
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/shot1.png",
+      "sizes": "540x960",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/shot2.png",
+      "sizes": "540x960",
+      "type": "image/png"
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "categories": ["business", "productivity"],
+  "iarc_rating_id": "e10a1234-5678-9012-3456-7890abcdef12"
 }
