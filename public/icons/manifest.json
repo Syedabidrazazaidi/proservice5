@@ -4,7 +4,9 @@
   "description": "Find trusted local service providers - electricians, plumbers, carpenters and more",
   "start_url": "/",
   "id": "/",
+  "app_id": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "fullscreen", "standalone", "minimal-ui", "browser"],
   "background_color": "#ffffff",
   "theme_color": "#0ea5e9",
   "orientation": "portrait",
@@ -37,5 +39,6 @@
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
-  "categories": ["business", "productivity"]
+  "categories": ["business", "productivity"],
+  "iarc_rating_id": "e10a1234-5678-9012-3456-7890abcdef12"
 }
