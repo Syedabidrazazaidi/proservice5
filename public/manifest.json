@@ -1,0 +1,25 @@
+{
+    "name": "getProWorker App",
+    "short_name": "getProWorker",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "lang": "en",
+    "scope": "/",
+    "description": "Find trusted local service providers - electricians, plumbers, carpenters and more",
+    "theme_color": "#0ea5e9",
+    "icons": [
+      {
+        "src": "/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }
